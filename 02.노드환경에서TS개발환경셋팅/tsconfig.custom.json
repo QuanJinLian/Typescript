@@ -1,0 +1,10 @@
+{
+  //옵션
+  "compilerOptions": {
+    "target": "es2016", //컴파일된 객체 코드의 버전 표준 구성
+    "module": "commonjs", //컴파일 대상에서 사용하는 모듈성 표준을 구성
+    "lib": ["es2016"],
+    "outDir": "./dist"
+  },
+  "include": ["./src"]
+}
